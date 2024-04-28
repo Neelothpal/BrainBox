@@ -1,4 +1,4 @@
-import './style.css'
+import './room.css'
 
 let timer;
     let minutes = 25;

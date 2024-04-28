@@ -18,10 +18,22 @@ body{
   height: 780px;
   display: flex;
   justify-content: center;
+  
+  background-image: linear-gradient(#0D051B,#05072D);
   align-items: center;
+  
 }
 
 #app {
+  background: radial-gradient(circle 200px at 40% 60%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 150px at 10% 90%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 300px at 60% 80%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 30% 100%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 200px at 80% 10%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 70% 20%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 400px at 90% 50%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 350px at 10% 20%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 30% 40%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0));
   display: grid;
   grid-template-columns:  19vw 19vw 19vw 19vw 19vw;
   grid-template-rows: 19vh 19vh 19vh 19vh 15vh;
@@ -30,7 +42,7 @@ body{
 }
 
 .elements{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.497);
   text-align: center;
   border-radius: 10px;
   padding: 10px;
@@ -97,4 +109,16 @@ button {
 
 #taskInput :focus{
   border-style: none;
+}
+
+p{
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
 }

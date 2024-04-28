@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0D051B,#05072D);
+    overflow: hidden;
+}
+
+#canvas{
+    position: absolute;
+    z-index: -1;
+}
+
+.contentContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: radial-gradient(circle 200px at 40% 60%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 150px at 10% 90%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 300px at 60% 80%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 30% 100%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 200px at 80% 10%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 70% 20%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 400px at 90% 50%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 350px at 10% 20%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0)),
+                radial-gradient(circle 100px at 30% 40%, rgba(0, 0, 255, 0.641),rgba(255,255,255,0));
+}
+
+.title {
+    font-size: 180px;
+    margin: 0;
+    font-family: "play";
+
+}
+
+a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: light;
+    width: 800px;
+    text-align: center;
+}
+

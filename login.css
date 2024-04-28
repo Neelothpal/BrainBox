@@ -45,7 +45,7 @@ input{
     width: 380px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
     padding-left: 10px ;
     
 }
@@ -58,12 +58,15 @@ a {
     align-self: flex-end;
 }
 .login{
+
     height: 45px;
     width: 380px;
     border: none;
     border-radius: 5px;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 25px;
+    background-color: #1720c3;
+    color: white;
 }
 p{
     color: white;
@@ -76,10 +79,10 @@ p{
     border-radius: 5px ;
 }
 h1{
-    margin-bottom: 0;
+    margin-bottom: 25px;
     padding: 0;
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: raleway;
 }
 hr{
     width: 380px;
